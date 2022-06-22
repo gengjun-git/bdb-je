@@ -3692,9 +3692,4 @@ public class EnvironmentImpl implements EnvConfigObserver {
              EnvironmentFailureReason.UNEXPECTED_STATE,
              restoreRequired.toString());
     }
-
-    // only used for RepImpl
-    public void setReplicaLatestVLSNSeq(long seq) {
-
-    }
 }
